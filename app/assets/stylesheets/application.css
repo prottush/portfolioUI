@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+#main-row, #right-content {
+	height: 100%;
+}
+
+#top-sub-row {
+	height: 70%;
+	border-bottom: 2px solid gray;
+}
+
+#bot-sub-row {
+	height: 30%;
+}
+
+#hierarchy {
+	height: 100%;
+	border-right: 2px solid gray;
+}
+
+#graph-container {
+	height: 80%;
+	width: 70%;
+	min-width: 310px;
+	margin-left: 5%;
+
+
+}

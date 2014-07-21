@@ -20,12 +20,12 @@ $(function() {
 
 	$.getJSON('http://www.highcharts.com/samples/data/jsonp.php?filename=aapl-c.json&callback=?', function(data) {
 		// Create the chart
-		$('#container').highcharts('StockChart', {
+		$('#graph-container').highcharts('StockChart', {
 			
 
 			rangeSelector : {
 				selected : 1,
-				inputEnabled: $('#container').width() > 480
+				inputEnabled: $('#graph-container').width() > 480
 			},
 
 			title : {
